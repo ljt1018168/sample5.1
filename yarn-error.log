@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js install
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js upgrade node-sass
 
 PATH: 
   /home/vagrant/.composer/vendor/bin:/home/vagrant/bin:/home/vagrant/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -6306,5 +6306,5 @@ Lockfile:
     resolved "http://registry.npm.taobao.org/yeast/download/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
 
 Trace: 
-  Error: EPROTO: protocol error, symlink '../../../buble/node_modules/acorn/bin/acorn' -> '/home/vagrant/Code/sample/node_modules/acorn-object-spread/node_modules/.bin/acorn'
+  Error: EPROTO: protocol error, symlink '../../../acorn/bin/acorn' -> '/home/vagrant/Code/sample/node_modules/astw/node_modules/.bin/acorn'
       at Error (native)

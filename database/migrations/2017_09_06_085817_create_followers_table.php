@@ -13,10 +13,10 @@ class CreateFollowersTable extends Migration
     public function up()
     {
         Schema::create('followers', function (Blueprint $table) {
-            $table->increments('id');
-            $table->integer('user_id')->index();
-            $table->integer('follower_id')->index();
-            $table->timestamps();
+                    $table->increments('id');
+                    $table->integer('user_id')->index();
+                    $table->integer('follower_id')->index();
+                    $table->timestamps();
         });
     }
 
@@ -27,6 +27,6 @@ class CreateFollowersTable extends Migration
      */
     public function down()
     {
-        Schema::drop('followers');
+        Schema::drop('followers');
     }
 }
